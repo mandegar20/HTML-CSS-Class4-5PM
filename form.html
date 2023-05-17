@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Hotel Reservation System</legend>
+        <br />
+        <label for="first-name" id="first-name">Name:</label>
+        <input
+          type="text"
+          name="First-name-input"
+          id="first-name"
+          placeholder="Mohammad"
+        />
+        <br />
+        <br />
+        <label for="phone-number">Phone:</label>
+        <input type="number" id="phone-number" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <br />
+        <br />
+        <label for="Password">Password:</label>
+        <input type="Password" id="Password" />
+        <br />
+        <br />
+        <label for="Date-birth">Date of Birth:</label>
+        <input type="Date" id="Date-birth" />
+        <br />
+        <br />
+        <p>Gender</p>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" /> <br />
+        <label for="Female">Female:</label>
+        <input type="radio" id="Female" name="gender" />
+        <br />
+        <br />
+        <label>Facility:</label>
+        <br />
+        <input type="checkbox" name="Wifi" id="Wifi" />
+        <label for="Wifi">Wifi</label> <br />
+        <input type="checkbox" name="tv" id="tv" />
+        <label for="tv">TV</label> <br />
+        <input type="checkbox" name="AC" id="AC" />
+        <label for="AC">AC</label>
+        <br />
+        <br />
+
+        <label for="package">Select your package: </label>
+        <select name="package" id="package">
+          <option value="Regular">Regular</option>
+          <option value="">VIP</option>
+          <option value="">VIP+</option>
+        </select>
+        <br />
+        <textarea cols="15" rows="15" placeholder="Write a story"></textarea>
+        <br />
+        <button>Submit</button>
+        <input type="button" value="Dark Mode" />
+        <input type="submit" />
+        <a href="#">Back to home</a>
+      </fieldset>
+    </form>
+  </body>
+</html>

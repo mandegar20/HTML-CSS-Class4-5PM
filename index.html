@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Way of Learning HTML</title>
+  </head>
+  <body>
+    <!-- 
+      Two types of element:
+      1. inline : a  img 
+      2. block  : p  h1  li 
+
+      Semantic HTML 5 
+      1. <header>
+      2. <main> 
+      3. <article>
+        4. <section>
+          5. <nav>
+            6. <aside>
+              7. <footer>
+           
+    <div></div>    block
+    <span></span>  inline 
+
+
+    =============================== CSS
+    cascading     style sheet
+    selector      {
+      property   : value ;
+      font-size  : 16px ;
+      color : blue; 
+
+    }
+
+    1. inline        never 
+    2. internal      
+    3. external       
+    -->
+
+    <header class="header-first">
+      <h1 id="heading-first" class="heading">📘 iTex Services</h1>
+      <nav>
+        <a href="#">Tutorials</a>
+        <a href="#">Exam</a>
+        <a href="#">Flexbox</a>
+        <a href="#">Grid</a>
+      </nav>
+    </header>
+    <article>
+      <header>
+        <h2>The best way of learning HTML</h2>
+        <div>
+          <img src="./image/author.jpg" width="70" alt="Author photo" />
+          <p>Posted by <strong>Ali Mohammadi</strong> on May first 2023</p>
+        </div>
+        <img
+          src="./image/post-image.jpg"
+          width="600"
+          alt="a man coding with HTML"
+        />
+        <p>
+          HTML stands for HyperText Markup Language. It is used to design web
+          pages using the markup language. HTML is the combination of
+          <em>Hypertext</em> and <em>Markup</em> language. Hypertext defines the
+          link between the web pages and markup language defines the text
+          document within the tag that define the structure of web pages
+        </p>
+      </header>
+      <section>
+        <h3 class="heading">What is HTML used for?</h3>
+        <div>
+          <p>
+            HTML is used to create the structure of web pages that are displayed
+            on the World Wide Web (www). It contains Tags and Attributes that
+            are used to design the web pages. Also, we can link multiple pages
+            using Hyperlinks.
+          </p>
+          <p>
+            The basic structure of an HTML page is laid out below. It contains
+            the essential building-block elements (i.e. doctype declaration,
+            HTML, head, title, and body elements) upon which all web pages are
+            created.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h3>This is HTML Basic Format:</h3>
+        <div>
+          <img src="./image/format.png" width="300" />
+          <ul>
+            <li>
+              &lt;DOCTYPE! html&gt; – A doctype or document type declaration is
+              an instruction that tells the web browser about the markup
+              language in which the current page is written. It is not an
+              element or tag. The doctype declaration is not case-sensitive
+            </li>
+            <li>
+              &lt;html&gt; – This tag is used to define the root element of HTML
+              document. This tag tells the browser that it is an HTML document.
+              It is the second outer container element that contains all other
+              elements within it
+            </li>
+            <li>
+              &lt;html&gt; – This tag is used to define the root element of HTML
+              document. This tag tells the browser that it is an HTML document.
+              It is the second outer container element that contains all other
+              elements within it
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>In HTML, each element is made up of 3 parts:</p>
+          <ol>
+            <li>The opening tag</li>
+            <li>The closing tag</li>
+            <li>The actual element</li>
+          </ol>
+          <p>
+            You can learn more at
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >MDN Web Docs</a
+            >
+          </p>
+        </div>
+      </section>
+    </article>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Duration</td>
+            <td>1 Mon</td>
+            <td>2 Mon</td>
+            <td>2 Mon</td>
+          </tr>
+          <tr>
+            <td>Fee</td>
+            <td>1000</td>
+            <td>2000</td>
+            <td>2000</td>
+          </tr>
+          <tr>
+            <td>Function</td>
+            <td>Structure</td>
+            <td>Styling</td>
+            <td>Programming</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <aside>
+      <h4>Related Posts</h4>
+      <ul>
+        <li>
+          <img src="./image/SeeMore-1.jpg" alt="a man is coding" width="50" />
+          <a href="#">How to Learn Web Development</a>
+          <p>By Mohammad Bahmani</p>
+        </li>
+        <li>
+          <img src="./image/SeeMore-2.jpg" alt="Storm thunder" width="50" />
+          <a href="#">The Unkonow Power of CSS</a>
+          <p>By Arif Hussaini</p>
+        </li>
+        <li>
+          <img
+            src="./image/SeeMore-3.jpg"
+            alt="Some lines of JS COde"
+            width="50"
+          />
+          <a href="#">Why JavaScript is awesome</a>
+          <p>By Haris Ahmadi</p>
+        </li>
+      </ul>
+    </aside>
+    <footer><p>Copyright &copy; 2023 by iTex Services</p></footer>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+
+/* 
+1. simple selector
+    I. element
+    II. ID
+    III. class
+    IV. Universal selector
+2. combined selector
+3. psuedo element selector 
+4. psuedo class  selector
+5. attribute selector
+*/
+
+/* selector{
+    property : value;
+} */
+/* =========== FONTS
+  1. Serif 
+  2. Sans Serif 
+  3. Script
+
+*/
+/* Conflict between selectors 
+1. Inline
+2. !important
+3. ID 
+4. Class
+5. Element
+6. Universal 
+*/
+/* =========================== COLORS
+1. Name    Blue, Red, Green ...
+2. Hexa Decimal 
+    Red   Green   Blue 
+    rgb 
+   0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+   0 1 2 3 4 5 6 7 8 9 A  B  C  D  E  F
+
+    r r  g g   b b
+    1 3  5 f  f b
+3. RGB 0-255  
+  rgb(245, 1,72)
+4. RGBa  alpha 0-1
+rgba( 255, 87, 4, 0.8)
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  border-top: 10px solid #1098ad;
+  /* border-color: #1098ad;
+  border-width: 10px;
+  border-style: solid; */
+  /* border: ; */
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: "Rubik", sans-serif;
+}
+.header-first {
+  /* border: 1px solid #f30808; */
+  /* Padding */
+  /* padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; */
+  /* padding: top  right  bottom  left  */
+  padding: 20px 20px 20px 40px;
+
+  /* Margin */
+  /* margin-top: 10px;
+  margin-right: 20px;s
+  margin-bottom: 30px;
+  margin-left: 40px; */
+  /* margin: 10px 20px 30px 40px; */
+  /* margin: 0 0 20px 0; */
+  margin-bottom: 40px;
+  background-color: #f7f7f7;
+}
+article header div p {
+  font-size: 14px;
+}
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  font-style: italic;
+  color: #1098ad;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 44px !important;
+  font-weight: 600;
+  color: #1098ad;
+}
+/*  This doesnt work until.... */
+/* nav {
+  padding-right: 10px;
+  margin-right: 10px;
+} */
+
+li:first-child {
+  font-weight: 600;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(odd) {
+  color: violet;
+}
+
+li:nth-child(even) {
+  color: darkcyan;
+}
+li:nth-child(4) {
+  color: darkcyan;
+} */
+
+/* ======== LINKS =========== */
+a:link {
+  color: #1098ad;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  padding-right: 20px;
+}
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: #f30808;
+  font-size: 19px;
+  text-decoration: underline;
+}
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
+/* LVHA */
+/* ========================= BOX MODEL
+    1. Content 
+    2. padding 
+    3. border
+    4. Margin
+ */
