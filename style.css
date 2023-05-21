@@ -51,10 +51,15 @@ rgba( 255, 87, 4, 0.8)
 }
 body {
   border-top: 10px solid #1098ad;
+
   /* border-color: #1098ad;
   border-width: 10px;
   border-style: solid; */
   /* border: ; */
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -81,7 +86,7 @@ li {
   margin-left: 40px; */
   /* margin: 10px 20px 30px 40px; */
   /* margin: 0 0 20px 0; */
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   background-color: #f7f7f7;
 }
 article header div p {
@@ -98,6 +103,33 @@ h2 {
   font-size: 44px !important;
   font-weight: 600;
   color: #1098ad;
+  margin-bottom: 20px;
+}
+h3 {
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #1098ad;
+  font-size: 28px;
+}
+h4 {
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #1098ad;
+  font-size: 24px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 20px;
+  width: 450px;
+}
+aside h4 {
+  text-transform: uppercase;
+}
+aside ul li {
+  list-style: none;
 }
 /*  This doesnt work until.... */
 /* nav {
@@ -150,3 +182,49 @@ a:active {
     3. border
     4. Margin
  */
+
+.emoji {
+  font-style: normal;
+}
+.author {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px;
+}
+li {
+  /* margin: 0 0 10px 50px; */
+  margin: 10px 30px;
+}
+
+/*  Pseudo Element */
+h1::first-letter {
+  font-style: normal;
+}
+/* p::first-line {
+  color: #f30808;
+} */
+
+h2::after {
+  content: "TOP";
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+  background-color: #f9fd12;
+  padding: 5px;
+  font-weight: 600;
+  margin-left: 90px;
+  margin-top: -30px;
+}
+
+/* Positions */
+/* 
+1. Static  default
+2. Relative
+3. Absolute
+4. Sticky
+5. Fixed
+
+
+*/
