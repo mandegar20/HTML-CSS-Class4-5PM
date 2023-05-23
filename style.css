@@ -51,6 +51,7 @@ rgba( 255, 87, 4, 0.8)
 }
 body {
   border-top: 10px solid #1098ad;
+  position: relative;
 
   /* border-color: #1098ad;
   border-width: 10px;
@@ -206,6 +207,9 @@ h1::first-letter {
   color: #f30808;
 } */
 
+header {
+  position: relative;
+}
 h2::after {
   content: "TOP";
   display: inline-block;
@@ -216,6 +220,9 @@ h2::after {
   font-weight: 600;
   margin-left: 90px;
   margin-top: -30px;
+  position: absolute;
+  top: 10px;
+  right: -20px;
 }
 
 /* Positions */
@@ -228,3 +235,17 @@ h2::after {
 
 
 */
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  margin-left: 30px;
+  transition: all 0.3s;
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+button:hover {
+  background-color: #f80303;
+  color: #fff;
+}
