@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        margin-top: 50px;
+        height: 400px;
+        width: 70%;
+        background-color: cyan;
+        display: flex;
+        flex-direction: row;
+        /* align-items: flex-start;
+        justify-content: center; */
+        gap: 0px;
+      }
+      .el--1 {
+        background-color: mediumslateblue;
+        /* flex-grow: 1; */
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0%;
+        /* flex: grow   shrink   basis */
+        flex: 1 0 300px;
+      }
+      .el--2 {
+        background-color: magenta;
+        flex-grow: 0;
+      }
+      .el--3 {
+        background-color: tan;
+        height: 50px;
+        flex-grow: 0;
+      }
+      .el--4 {
+        background-color: salmon;
+      }
+      .el--5 {
+        background-color: firebrick;
+      }
+      .el--6 {
+        background-color: greenyellow;
+      }
+      .el--7 {
+        background-color: brown;
+      }
+      .el--8 {
+        background-color: violet;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="el--1">ONE</div>
+      <div class="el--2">TWO</div>
+      <div class="el--3">THREE</div>
+      <div class="el--4">FOUR</div>
+      <div class="el--5">FIVE</div>
+      <div class="el--6">SIX</div>
+      <div class="el--7">SEVEN</div>
+      <div class="el--8">EIGHT</div>
+    </div>
+  </body>
+</html>
